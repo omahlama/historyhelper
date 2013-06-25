@@ -1,0 +1,13 @@
+{
+  "name": "historyhelper",
+  "version": "0.0.0",
+  "description": "Helper for projects where the navigation is a tree and the back button should be used to move within the tree instead of actual history.",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jasmine": "~0.5.1"
+  },
+  "repository": "",
+  "author": "Olli Mahlamäki",
+  "license": "BSD"
+}

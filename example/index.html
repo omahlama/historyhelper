@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HistoryHelper test page</title>
+</head>
+<body>
+
+<h1>HistoryHelper test page</h1>
+
+<div id="view">
+
+</div>
+
+<script type="text/html" id="mainview">
+    <h2>Categories</h2>
+    <ul>
+        <li>
+            <a href="books/">Books</a>
+        </li>
+        <li>
+            <a href="films/">Films</a>
+        </li>
+    </ul>
+</script>
+
+<script type="text/html" id="books">
+    <h2>Books</h2>
+    <ul>
+        <li><a href="books/1">Book 1</a></li>
+        <li><a href="books/2">Book 2</a></li>
+        <li><a href="books/3">Book 3</a></li>
+    </ul>
+    <a href="">Back</a>
+</script>
+
+<script type="text/html" id="films">
+    <h2>Films</h2>
+    <ul>
+        <li><a href="films/1">Film 1</a></li>
+        <li><a href="films/2">Film 2</a></li>
+        <li><a href="films/3">Film 3</a></li>
+    </ul>
+    <a href="">Back</a>
+</script>
+
+<script type="text/html" id="item">
+    <h2><%= category %></h2>
+    <div><%= item %></div>
+    <a href="<%= category %>/">Back</a>
+</script>
+
+
+<script src="lib/jquery-1.10.1.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="lib/backbone.js"></script>
+<script src="../src/historyhelper.js"></script>
+<script src="example.js"></script>
+</body>
+</html>
